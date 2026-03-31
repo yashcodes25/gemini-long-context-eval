@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "files": ["auth.py", "utils.py"],
+    "bug_description": "Token not expiring",
+    "context": "User sessions remain active indefinitely",
+    "expected_output": "Missing expiration check",
+    "difficulty": "hard"
+  },
+  {
+    "id": 2,
+    "files": ["report1.txt", "report2.txt", "report3.txt"],
+    "bug_description": "Inconsistent data across reports",
+    "context": "Reports generated from different sources",
+    "expected_output": "Mismatch in reported values",
+    "difficulty": "medium"
+  }
+]
